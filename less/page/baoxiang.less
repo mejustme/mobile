@@ -1,0 +1,98 @@
+body{
+  margin: 0px;
+}
+#mainPage{
+ font-family:"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,Tahoma,sans-serif;
+  #header{
+    .page-title{
+      width:  100%;
+      height: 80/30rem;
+      line-height: 80/30rem;
+      text-align: center;
+      color: #FFF5F0;
+      background-color: #ff5000 ;
+      font-size: 20/30rem;
+    }
+  }
+  #content{
+    .item{
+      width: 100%;
+      margin: 15/30rem 0;
+      header{
+        padding: 10/30rem 25/30rem;
+        overflow: hidden;
+        .left{
+          float: left;
+          .logo{
+            display:inline-block ;
+            img{
+              width: 66/30rem;
+              vertical-align: bottom;
+            }
+          }
+          .info{
+            position: relative;
+            top: 5/30rem;
+            padding-left: 5/30rem;
+            display:inline-block ;
+            .name{
+              display:inline-block ;
+              font-size: 30/30rem;
+            }
+            .order{
+              margin-top: 5/30rem;
+              font-size: 20/30rem;
+              color: #FF5000;
+              span{
+                color: #858585;
+                padding-right: 15/30rem;
+              }
+            }
+          }
+        }
+        .right{
+          margin-top: 6/30rem;
+          float: right;
+          border: 3/30rem #FF5000 solid;
+          border-radius: 10/30rem;
+          text-align: center;
+          line-height: 50/30rem;
+          width: 200/30rem;
+          padding: 8/30rem;
+
+          color: #FF5000;
+          font-size: 25/30rem;
+        }
+      }
+      .goods-list{
+        margin-top: 15/30rem;
+        .good-show{
+          display: inline-block;
+          position: relative;
+          margin-right: 0rem;
+          &:nth-child(3n){
+           margin-right: 0;
+          }
+          img{
+            width: 244/30rem;
+            height: 244/30rem;
+          }
+          .price{
+            position: absolute;
+            right: 0;
+            bottom: 5/30rem;
+            display: block;
+            width: 115/30rem;
+            height: 45/30rem;
+            line-height: 45/30rem;
+            color: #ffffff;
+            background-color: #606467;
+            text-align: center;
+            opacity: .8;
+            font-size: 25/30rem;
+          }
+        }
+      }
+    }
+  }
+}

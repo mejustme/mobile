@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="dns-prefetch" href="//g.alicdn.com">
+    <link rel="dns-prefetch" href="//img.alicdn.com">
+    <link rel="dns-prefetch" href="//log.mmstat.com">
+    <link rel="dns-prefetch" href="//ald.taobao.com">
+    <link rel="dns-prefetch" href="//tmm.taobao.com">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"/>
+    <meta name="aplus-terminal" content="1">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="format-detection" content="telephone=no, address=no">
+    <title>每日赢宝箱</title>
+    <!--提到前面的目的是为了在渲染CSS前，先做好全局font-size大小的决定，否则会出现跳动的渲染-->
+    <script src="../js/mod/initFontSize.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../css/page/baoxiang.min.css" charset="utf-8">
+<style>
+</style>
+<body>
+<div id="mainPage" class="">
+    <div id="header">
+        <div class="page-title">
+            任意收藏一个店铺即可打开宝箱,百分百中奖
+        </div>
+    </div>
+    <div id="content"  class="shop-list" data-url="../js/json/shops.json">
+    </div>
+</div>
+<script type="text/javascript">
+</script>
+<script type="text/tpl" id="J_shops">
+           <div class="item">
+            <header>
+                <div class="left">
+                    <div class="logo"><img src="<%= logo %>" alt="<%= name%>"/></div>
+                     <div class="info">
+                         <div class="name"><%= name %></div>
+                         <div class="order"><span>店铺号:</span><%= order %></div>
+                     </div>
+                </div>
+                <% if(!isCollected){ %>
+                     <div class="right uncollected">  收藏打开宝箱 </div>
+                 <% }else{ %>
+                      <div class="right collected">    已收藏 </div>
+                  <% } %>
+
+            </header>
+            <div class="goods-list">
+                <% _.each(goods, function(good){ %>
+                <div class="good-show">
+                    <a href="<%= good.href %>">
+                        <img class="lazy-load"   data-img="<%= good.src %>" alt="图片"/>
+                        <span class="price">￥<%= good.price %></span>
+                    </a>
+                 </div>
+                <% }); %>
+            </div>
+        </div>
+</script>
+<script src="//g.alicdn.com/sj/lib/underscore/underscore.min.js" charset="utf-8"></script>
+<script src="//g.alicdn.com/sj/lib/zepto/zepto.min.js" charset="utf-8"></script>
+<script src="../js/mod/lazyload.js" charset="utf-8"></script>
+<script src="../js/page/baoxiang.js" charset="utf-8"></script>
+<!-- 下行不要套进vm -->
+<script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>

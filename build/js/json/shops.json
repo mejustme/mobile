@@ -1,0 +1,107 @@
+{
+  "status": "success",
+  "itemList": [
+    {
+      "id": "1",
+      "name": "爱尚小店1",
+      "order": "0001",
+      "logo": " //img.alicdn.com/bao/uploaded//99/53/T1uZLUFjpaXXartXjX.gif ",
+      "isCollected": false,
+      "goods": [{
+        "href": "//img.alicdn.com/bao/uploaded/i3/467223809/TB2dDLccpXXXXXMXpXXXXXXXXXX_!!467223809.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i3/467223809/TB2dDLccpXXXXXMXpXXXXXXXXXX_!!467223809.jpg_320x320q50.jpg",
+        "price": "122"
+      },{
+        "href": "//img.alicdn.com/bao/uploaded/i4/2453536291/TB2T81jcFXXXXXaXpXXXXXXXXXX_!!2453536291.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i4/2453536291/TB2T81jcFXXXXXaXpXXXXXXXXXX_!!2453536291.jpg_320x320q50.jpg",
+        "price": "122"
+      },{
+        "href": "//img.alicdn.com/bao/uploaded/i4/1047573975/TB2E9wVXVXXXXbZXXXXXXXXXXXX_!!1047573975.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i2/1674657894/TB22apOcVXXXXXxXpXXXXXXXXXX_!!1674657894.jpg_320x320q50.jpg",
+        "price": "122"
+      }]
+    },
+    {
+      "id": "1",
+      "name": "爱尚小店2",
+      "order": "0002",
+      "logo": " //img.alicdn.com/bao/uploaded//99/53/T1uZLUFjpaXXartXjX.gif ",
+      "isCollected": true,
+      "goods": [{
+        "href": "//img.alicdn.com/bao/uploaded/i3/467223809/TB2dDLccpXXXXXMXpXXXXXXXXXX_!!467223809.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i3/467223809/TB2dDLccpXXXXXMXpXXXXXXXXXX_!!467223809.jpg_320x320q50.jpg"
+      ,"price": "122"
+      },{
+        "href": "//img.alicdn.com/bao/uploaded/i4/2453536291/TB2T81jcFXXXXXaXpXXXXXXXXXX_!!2453536291.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i4/2453536291/TB2T81jcFXXXXXaXpXXXXXXXXXX_!!2453536291.jpg_320x320q50.jpg"
+      ,"price": "122"
+      },{
+        "href": "//img.alicdn.com/bao/uploaded/i4/1047573975/TB2E9wVXVXXXXbZXXXXXXXXXXXX_!!1047573975.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i2/1674657894/TB22apOcVXXXXXxXpXXXXXXXXXX_!!1674657894.jpg_320x320q50.jpg"
+       ,"price": "122"
+      }]
+    },
+    {
+      "id": "31",
+      "name": "爱尚小店3",
+      "order": "0003",
+      "logo": " //img.alicdn.com/bao/uploaded//99/53/T1uZLUFjpaXXartXjX.gif ",
+      "isCollected": false,
+      "goods": [{
+        "href": "//img.alicdn.com/bao/uploaded/i3/467223809/TB2dDLccpXXXXXMXpXXXXXXXXXX_!!467223809.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i3/467223809/TB2dDLccpXXXXXMXpXXXXXXXXXX_!!467223809.jpg_320x320q50.jpg"
+      ,"price": "122"
+      },{
+        "href": "//img.alicdn.com/bao/uploaded/i4/2453536291/TB2T81jcFXXXXXaXpXXXXXXXXXX_!!2453536291.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i4/2453536291/TB2T81jcFXXXXXaXpXXXXXXXXXX_!!2453536291.jpg_320x320q50.jpg"
+      ,"price": "122"
+      },{
+        "href": "//img.alicdn.com/bao/uploaded/i4/1047573975/TB2E9wVXVXXXXbZXXXXXXXXXXXX_!!1047573975.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i2/1674657894/TB22apOcVXXXXXxXpXXXXXXXXXX_!!1674657894.jpg_320x320q50.jpg"
+      ,"price": "122"
+      }]
+    },
+    {
+      "id": "4",
+      "name": "爱尚小店4",
+      "order": "0004",
+      "logo": " //img.alicdn.com/bao/uploaded//99/53/T1uZLUFjpaXXartXjX.gif ",
+      "isCollected": false,
+      "goods": [{
+        "href": "//img.alicdn.com/bao/uploaded/i3/467223809/TB2dDLccpXXXXXMXpXXXXXXXXXX_!!467223809.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i3/467223809/TB2dDLccpXXXXXMXpXXXXXXXXXX_!!467223809.jpg_320x320q50.jpg"
+        ,"price": "122"
+      },{
+        "href": "//img.alicdn.com/bao/uploaded/i4/1047573975/TB2E9wVXVXXXXbZXXXXXXXXXXXX_!!1047573975.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i4/1047573975/TB2E9wVXVXXXXbZXXXXXXXXXXXX_!!1047573975.jpg_320x320q50.jpg"
+      ,"price": "122"
+      },{
+        "href": "//img.alicdn.com/bao/uploaded/i4/2453536291/TB2T81jcFXXXXXaXpXXXXXXXXXX_!!2453536291.jpg_320x320q50.jpg",
+        "src": "//img.alicdn.com/bao/uploaded/i2/1674657894/TB22apOcVXXXXXxXpXXXXXXXXXX_!!1674657894.jpg_320x320q50.jpg"
+      ,"price": "122"
+      }]
+    },
+    {
+      "id": "5",
+      "name": "爱尚小店5",
+      "order": "0005",
+      "isCollected": false,
+      "logo": " //img.alicdn.com/bao/uploaded//99/53/T1uZLUFjpaXXartXjX.gif ",
+      "goods": [{
+        "href": "//img.alicdn.com/bao/uploaded/i3/467223809/TB2dDLccpXXXXXMXpXXXXXXXXXX_!!467223809.jpg_320x320q50.jpg",
+        "src": "http://g-search2.alicdn.com/img/bao/uploaded/i4/i1/TB1ZQHBHVXXXXbsXpXXXXXXXXXX_!!0-item_pic.jpg_180x180.jpg"
+      ,"price": "122"
+      },{
+        "href": "//img.alicdn.com/bao/uploaded/i4/2453536291/TB2T81jcFXXXXXaXpXXXXXXXXXX_!!2453536291.jpg_320x320q50.jpg",
+        "src": "http://g-search4.alicdn.com/img/bao/uploaded/i4/i2/TB1E1ZDHVXXXXcfXpXXXXXXXXXX_!!0-item_pic.jpg_180x180.jpg"
+      ,"price": "122"
+      },{
+        "href": "//img.alicdn.com/bao/uploaded/i4/1047573975/TB2E9wVXVXXXXbZXXXXXXXXXXXX_!!1047573975.jpg_320x320q50.jpg",
+        "src": "http://g-search3.alicdn.com/img/bao/uploaded/i4/i3/TB1O288IXXXXXbqXpXXXXXXXXXX_!!0-item_pic.jpg_180x180.jpg"
+      ,"price": "122"
+      }]
+    }
+  ]
+}
+
+
