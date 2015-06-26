@@ -14,7 +14,7 @@ $(function(){
                     });
                     lib.lazyload($('#content')[0],{
                         lazyClass:'lazy-load',
-                        lazyHeight : 0
+                        lazyHeight : 200
                     });
                 }
 
