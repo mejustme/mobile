@@ -2,10 +2,10 @@ body{
   margin: 0;
 }
 ::-webkit-scrollbar {
- width:0
+  width:0
 }
 #mainPage{
- font-family:"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,Tahoma,sans-serif;
+  font-family:"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,Tahoma,sans-serif;
   #header{
     .page-title{
       width:  100%;
@@ -72,7 +72,7 @@ body{
           position: relative;
           margin-right: 0rem;
           &:nth-child(3n){
-           margin-right: 0;
+            margin-right: 0;
           }
           img{
             width: 244/30rem;
@@ -93,6 +93,92 @@ body{
             font-size: 25/30rem;
           }
         }
+      }
+    }
+  }
+}
+.pm-body{
+  font-family:"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,Tahoma,sans-serif !important;
+}
+
+.successModal,.failModal{
+  .pm-body{
+    border-radius: .3rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    min-width: 1rem !important;
+    width: 370/30rem !important;
+    font-size: .9rem;
+    p{
+      text-align: center;
+      font-size: 1rem;
+    }
+    text-align: left;
+    background-color: white;
+    img{
+      margin-left:auto;
+      margin-right:auto;
+      display: block;
+      width:  180/30rem;
+      height:  180/30rem;
+    }
+    .prize{
+      text-align: center;
+      margin-left:auto;
+      margin-right:auto;
+      display: block;
+      margin-bottom: .4rem;
+      border-radius: 50%;
+      background-color:#ff5000;
+      color:#ffeb8f;
+      width:  160/30rem;
+      height:  160/30rem;
+      line-height: 157/30rem;
+      .prizenum{
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: bolder;
+        transform: skew(-10deg) scale(1,1.1);
+      }
+      .unit{
+        display: inline-block;
+        font-size: 1.2rem;
+        transform: skew(-10deg);
+      }
+    }
+    .footerprize{
+      color:#ff5000;
+    }
+  }
+}
+
+.onemoreModal{
+  .pm-body{
+    opacity: .9;
+    border-radius: .3rem;
+    min-width: 1rem !important;
+    width: 500/30rem !important;
+    font-size: .9rem;
+    p{
+      text-align: center;
+      font-size: 1rem;
+    }
+    background-color: white;
+    .content{
+      text-align: left;
+      padding-left: .8rem;
+      padding-right: .8rem;
+      color: rgba(0, 0, 0, 0.79);
+      font-size: .85rem;
+    }
+    .footer{
+      text-align: center;
+      padding: .6rem ;
+      border-top: .1rem #cbcbd2 solid;
+      font-size: 1rem;
+      a{
+        text-decoration: none;
+        color: #ff5000;
       }
     }
   }

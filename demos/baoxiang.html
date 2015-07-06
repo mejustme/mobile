@@ -16,6 +16,7 @@
     <!--提到前面的目的是为了在渲染CSS前，先做好全局font-size大小的决定，否则会出现跳动的渲染-->
     <script src="../js/mod/initFontSize.js" charset="utf-8"></script>
     <link rel="stylesheet" href="../css/page/baoxiang.min.css" charset="utf-8">
+    <link rel="stylesheet" href="../css/page/modal.min.css" charset="utf-8">
 <style>
 </style>
 <body>
@@ -27,6 +28,28 @@
     </div>
     <div id="content"  class="shop-list" data-url="../js/json/shops.json">
     </div>
+</div>
+<div id="J_successModal" style="display: none;">
+    <p>恭喜您成功开启宝箱</p>
+    <div class="prize"> <span class="prizenum">10</span><span class="unit">M</span></div>
+    <br>
+     获得<span class="footerprize">10M</span> 流量，请到我的淘宝 > 我的卡券包查看使用
+    <br><br>
+</div>
+<div id="J_failModal" style="display: none;">
+    <p>开启宝箱失败箱</p>
+    <img src="//gw.alicdn.com/tps/TB174ooIpXXXXaiXFXXXXXXXXXX.png" alt="明天再来"/>
+    <br>
+    今天的宝箱开完了，明天再来吧~
+    <br><br>
+</div>
+<div id="J_onemore" style="display: none;">
+    <p>开启宝箱失败</p>
+    <div class="content">
+        恭喜你获得开启一新宝箱的机会，快去收藏一家新店铺吧
+    </div>
+    <br>
+    <div class="footer"><a href="javascript:void(0)" onclick="$.pgwModal('close');">再试试</a></div>
 </div>
 <script type="text/javascript">
 </script>
@@ -62,6 +85,7 @@
 <script src="//g.alicdn.com/sj/lib/underscore/underscore.min.js" charset="utf-8"></script>
 <script src="//g.alicdn.com/sj/lib/zepto/zepto.min.js" charset="utf-8"></script>
 <script src="../js/mod/lazyload.js" charset="utf-8"></script>
+<script src="../js/mod/modal.js" charset="utf-8"></script>
 <script src="../js/page/baoxiang.js" charset="utf-8"></script>
 <!--自动刷新，websocket-->
 <script src="//localhost:35729/livereload.js"></script>

@@ -8,3 +8,12 @@ body{margin:0}
 #mainPage #content .item .goods-list{margin-top:.5rem}#mainPage #content .item .goods-list .good-show{display:inline-block;position:relative;margin-right:0rem}#mainPage #content .item .goods-list .good-show:nth-child(3n){margin-right:0}
 #mainPage #content .item .goods-list .good-show img{width:8.133333333333333rem;height:8.133333333333333rem}
 #mainPage #content .item .goods-list .good-show .price{position:absolute;right:0;bottom:.26666666666666666rem;display:block;width:3.8333333333333335rem;height:1.5rem;line-height:1.5rem;color:#ffffff;background-color:#606467;text-align:center;opacity:.8;font-size:.8333333333333334rem}
+.pm-body{font-family:"Hiragino Sans GB","Microsoft YaHei",Helvetica,Arial,Tahoma,sans-serif !important}
+.successModal .pm-body,.failModal .pm-body{border-radius:.3rem;padding-left:.8rem;padding-right:.8rem;min-width:1rem !important;width:12.333333333333334rem !important;font-size:.9rem;text-align:left;background-color:white}.successModal .pm-body p,.failModal .pm-body p{text-align:center;font-size:1rem}
+.successModal .pm-body img,.failModal .pm-body img{margin-left:auto;margin-right:auto;display:block;width:6rem;height:6rem}
+.successModal .pm-body .prize,.failModal .pm-body .prize{text-align:center;margin-left:auto;margin-right:auto;display:block;margin-bottom:.4rem;border-radius:50%;background-color:#ff5000;color:#ffeb8f;width:5.333333333333333rem;height:5.333333333333333rem;line-height:5.233333333333333rem}.successModal .pm-body .prize .prizenum,.failModal .pm-body .prize .prizenum{display:inline-block;font-size:2rem;font-weight:bolder;transform:skew(-10deg) scale(1, 1.1)}
+.successModal .pm-body .prize .unit,.failModal .pm-body .prize .unit{display:inline-block;font-size:1.2rem;transform:skew(-10deg)}
+.successModal .pm-body .footerprize,.failModal .pm-body .footerprize{color:#ff5000}
+.onemoreModal .pm-body{opacity:.9;border-radius:.3rem;min-width:1rem !important;width:16.666666666666668rem !important;font-size:.9rem;background-color:white}.onemoreModal .pm-body p{text-align:center;font-size:1rem}
+.onemoreModal .pm-body .content{text-align:left;padding-left:.8rem;padding-right:.8rem;color:rgba(0,0,0,0.79);font-size:.85rem}
+.onemoreModal .pm-body .footer{text-align:center;padding:.6rem ;border-top:.1rem #cbcbd2 solid;font-size:1rem}.onemoreModal .pm-body .footer a{text-decoration:none;color:#ff5000}

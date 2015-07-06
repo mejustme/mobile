@@ -13,7 +13,7 @@ $(function(){
                     });
                     lib.lazyload($('#content')[0],{
                         lazyClass:'lazy-load',
-                        lazyHeight : 200
+                        lazyHeight : 400
                     });
                 }
 
@@ -30,18 +30,36 @@ $(function(){
     }
     function oneMore(){
         $('.page-title').text('你还有一次收藏赢宝箱的机会');
+
     }
 
     function doCollect(){
         successCollect($(this));
         var a = (Math.random()*10).toFixed(0);
-        if( a > 5 && a % 2 == 0 ){
-            alert("恭喜你获得开启一个新宝箱的机会，快去收藏一家新店铺吧！");
-            oneMore();
-        }else if(a <= 5 && a % 2 == 0 ){
-            alert("恭喜你获得5M流量包，赶紧去看看吧！");
+        if(a >= 0 && a<= 3){
+            $.pgwModal({
+                target: '#J_onemore',
+                titleBar : false,
+                maxWidth: "30rem",
+                mainClassName : 'onemoreModal',
+                closeContent : ''
+            });
+        }else if(a > 3 && a<= 6){
+            $.pgwModal({
+                target: '#J_successModal',
+                titleBar : false,
+                maxWidth: "30rem",
+                mainClassName : 'successModal',
+                closeContent : ''
+            });
         }else{
-            alert("您今天已经领过宝箱啦，明天再来吧~");
+            $.pgwModal({
+                target: '#J_failModal',
+                titleBar : false,
+                maxWidth: "30rem",
+                mainClassName : 'failModal',
+                closeContent : ''
+            });
         }
 
         /*
